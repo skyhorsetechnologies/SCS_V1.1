@@ -1,2 +1,2 @@
 #MainConfig files
-*.settings
+*.settings/*.*

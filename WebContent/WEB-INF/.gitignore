@@ -1,0 +1,6 @@
+#Config files
+/web.xml
+/config/*
+#Lib files
+/lib/*
+

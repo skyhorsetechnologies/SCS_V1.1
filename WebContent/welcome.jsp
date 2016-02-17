@@ -4,9 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>MainPage</title>
 </head>
 <body>
-Hello..,
+REDIRECTING YOU TO COMPANY PAGE....
+
+ <%
+response.sendRedirect(request.getContextPath() + "/homepage?uid=12345&name='prem'");
+%> 
+
 </body>
 </html>

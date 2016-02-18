@@ -63,7 +63,7 @@ public class MainController {
 	@RequestMapping(value="/403")
 	public ModelAndView ScsErrorPage() {
 	
-		System.out.println("Logging out..");
+		System.out.println("Access Denied..");
         return new ModelAndView("403");
     }
 	

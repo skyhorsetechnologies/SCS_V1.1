@@ -62,7 +62,5 @@
    <!-- Session timeout -->
    <session-config>
     <session-timeout>480</session-timeout>
-  </session-config>
-  
-  
+  </session-config>  
 </web-app>

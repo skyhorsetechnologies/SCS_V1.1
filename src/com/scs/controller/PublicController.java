@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("public")
 public class PublicController {
-	@RequestMapping(value="/main")
+	@RequestMapping(value="/main.action")
 	public ModelAndView ScsDoctorPage() {
 	
 		System.out.println("Inside public page..");

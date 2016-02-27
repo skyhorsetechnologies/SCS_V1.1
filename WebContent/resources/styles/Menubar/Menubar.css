@@ -1,0 +1,28 @@
+.txt {
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3 {
+	position: absolute !important;
+	text-align: center !important;
+}
+
+.content-wrapper {
+	height: 100% !important;
+	background-color:white !important;
+}
+
+.wrapper {
+	min-height: 50px !important;	
+}
+
+.navbar-static-top
+{
+	max-height: 50px !important;	
+}
+
+.main-footer {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}

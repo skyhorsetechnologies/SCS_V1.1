@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("master")
 public class MasterController {
 
-	@RequestMapping(value="/main")
+	@RequestMapping(value="/main.action")
 	public ModelAndView ScsMasterPage() {
 	
 		System.out.println("Inside master page..");

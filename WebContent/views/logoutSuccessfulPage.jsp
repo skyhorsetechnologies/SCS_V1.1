@@ -1,6 +1,8 @@
 <html>
-<head><title>Logout</title></head>
+<head>
+<title>Logout</title>
+</head>
 <body>
-  <h1>Logout Successful!</h1>
+	<h1>Logout Successful!</h1>
 </body>
 </html>

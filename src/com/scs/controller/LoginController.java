@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("scs")
 public class LoginController {
-	@RequestMapping(value="/homepage2")
+	@RequestMapping(value="/homepage2.action")
 	public ModelAndView ScsMainpage(Model m,@RequestParam(name="uid") int myid,@RequestParam(name="name") String myname) {
 		
 		

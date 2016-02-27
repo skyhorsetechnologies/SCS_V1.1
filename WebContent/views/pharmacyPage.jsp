@@ -1,15 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>PharmacyPage</title>
 </head>
 <body>
-This is Pharmacy page...
 
-<a href="${pageContext.request.contextPath}/j_spring_security_logout">LOGOUT</a>
-<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+	<jsp:include page="Menubar.jsp" />
+<div id="bodyContent">
+	<h3>Pharmacy Page welcomes you</h3>
+	</div>
 </body>
+<script>
+	$(document).ready(function() {
+		$(".headerPart").text("Pharmacy Dashboard");
+		$("title").text("SCS | Pharmacy");
+		$("#bodyContent").appendTo($(".content-wrapper"));
+	});
+</script>
 </html>

@@ -1,2 +1,3 @@
 #MainConfig files
 *.settings/*.*
+/bin/

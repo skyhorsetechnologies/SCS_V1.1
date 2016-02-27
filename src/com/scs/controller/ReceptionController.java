@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("reception")
 public class ReceptionController {
-	@RequestMapping(value="/main")
+	@RequestMapping(value="/main.action")
 	public ModelAndView ScsReceptionPage() {
 	
 		System.out.println("Inside reception page..");

@@ -1,6 +1,10 @@
 #Config files
 /web.xml
 /config/*
+
 #Lib files
 /lib/*
 
+#output files
+/build/*
+/bin/*

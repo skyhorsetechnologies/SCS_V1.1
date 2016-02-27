@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("pharmacy")
 public class PharmacyController {
-	@RequestMapping(value="/main")
+	@RequestMapping(value="/main.action")
 	public ModelAndView ScsPharmacyPage() {
 	
 		System.out.println("Inside pharmacy page..");

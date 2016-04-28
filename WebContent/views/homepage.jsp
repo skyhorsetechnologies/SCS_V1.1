@@ -1,8 +1,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Skyhorse Technologies</title>
-<link rel="icon" href="resources/assets/images/mainpage/skyhorseIcon.png" type="image/png">
+<title></title>
+<!-- <link rel="icon" href="resources/assets/images/mainpage/skyhorseIcon.png" type="image/png"> -->
 <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="resources/styles/font-awesome.css" rel="stylesheet" type="text/css">
 
@@ -17,7 +17,7 @@
 
 <style>
 #head {
-background: #181015 url(../images/bg_header.jpg) no-repeat;
+/* background: #181015 url(../images/bg_header.jpg) no-repeat; */
 background-size: cover;
 min-height: 520px;
 text-align: center;
@@ -65,8 +65,8 @@ display: block;
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			 	<img class="hidden-xs hidden-sm" src="resources/assets/images/mainpage/skyhorse_logo_name_new.png" alt="Skyhorse Technologies">	
-				<h3 class="visible-xs visible-sm navbar-brand">Skyhorse Technologies</h3>
+			 	<!-- <img class="hidden-xs hidden-sm" src="resources/assets/images/mainpage/skyhorse_logo_name_new.png" alt=""> -->	
+				<!-- <h3 class="visible-xs visible-sm navbar-brand">Skyhorse Technologies</h3> -->
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">

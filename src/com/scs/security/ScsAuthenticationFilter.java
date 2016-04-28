@@ -31,10 +31,10 @@ public class ScsAuthenticationFilter implements AuthenticationSuccessHandler{
 		Set<String> roles = AuthorityUtils.authorityListToSet(auth.getAuthorities());
 		auth = SecurityContextHolder.getContext().getAuthentication();
 		String name = auth.getName();
-	    //long ts=System.currentTimeMillis();
+	    long ts=System.currentTimeMillis();
 		DateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss");
 		Date date = new Date();
-		//System.out.println(dateFormat.format(date)); 
+		System.out.println(dateFormat.format(date)); 
 		
 		request.getSession().setAttribute("LoginTime", dateFormat.format(date).toString());
 		

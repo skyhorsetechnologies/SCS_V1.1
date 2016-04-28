@@ -21,7 +21,14 @@
          folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/styles/Template/_all-skins.css">
+<!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/styles/material/bootstrap-material-design.css">
+  
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/styles/material/ripples.min.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
 	<div class="wrapper">
@@ -82,6 +89,7 @@
 					</ul>
 				</div>
 			</nav>
+			
 			<input type="hidden" name="${_csrf.parameterName}"
 				value="${_csrf.token}" />
 		</header>
@@ -187,11 +195,18 @@
 	<!-- AdminLTE App -->
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath}/resources/scripts/Template/app.js"></script>
-
+	
 
 	<!-- AdminLTE for demo purposes -->
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath}/resources/scripts/Template/demo.js"></script>
+	
+	<script type="text/javascript"
+		src="${pageContext.request.contextPath}/resources/scripts/material/material.min.js"></script>
+
+	<script type="text/javascript"
+		src="${pageContext.request.contextPath}/resources/scripts/material/ripples.min.js"></script>
+	
 	<!--Ends here Plugin JS for Menubar Template -->
 	<!-- ************************************************************************************ -->
 
